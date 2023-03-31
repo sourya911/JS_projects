@@ -1,0 +1,81 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@200;400;500;600;700;800&family=Poppins:wght@200;300;400;500&family=Roboto:ital,wght@0,300;1,100;1,300&family=Ubuntu&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+body{
+    /* margin: 1rem; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,24,0.8)),url(./img1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5; */
+}
+
+.container{
+    height: 350px;
+    width: 450px;
+   
+}
+.header{
+    background-color: rgb(10, 10, 10);
+    color: rgb(184, 173, 173);
+    border: 2px solid #f9f9f9;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+.main-content{
+    height: 350px;
+    width: 100%;
+    margin-top: 1.5rem;
+    padding: 50px 40px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+}
+
+.main-content .text{
+    font-size: 1.3rem;
+    color: rgb(12, 12, 12);
+    margin-top: 20px;
+    line-height: 1.7;
+    font-weight: bold;
+}
+.main-content .person{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: red;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.main-content button{
+    background-color: rgb(39, 37, 37);
+    color: white;
+    font-size: 1.3rem;
+    padding: 10px 10px;
+    /* display: block; */
+    margin-top: 20px;
+    outline: none;
+    text-decoration: none;
+    border-radius: 5px;
+
+ }
+
+ 
+.main-content button:active{
+    background-color: rgb(108, 137, 137);
+}

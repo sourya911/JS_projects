@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body{
+    height: 100vh;
+    background: url("./sp.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: #fff;
+    /* font-size: 3rem; */
+    height: 240px;
+    width: 60%;
+    border-radius:10px ;
+}
+#timer{
+    font-size: 70px;
+    padding :20px 0;
+    text-align: center;
+}
+.btn{
+    text-align: center;
+}
+
+button{
+    margin: 10px 20px;
+    /* margin-top: 20px; */
+    border: none;
+}
+button i{
+    font-size: 3rem;
+    padding: 20px;
+    color: #fff;
+}
+
+#play{
+    background-color: green;
+    transition: 0.5s;
+    
+}
+#pause{
+    background-color: cyan;
+    transition: 0.5s;
+    
+}
+#reset{
+    
+    background-color: red; 
+    transition: 0.5s;
+}

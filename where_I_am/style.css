@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background:  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("./nature.png") no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;    
+}
+
+#model button{
+    position: absolute;
+    top: 70%;
+    left: 26%;
+    width: 250px;
+    height: 80px;
+    background-color: transparent;
+    color: #f5f5f5;
+    outline: none;
+    border: 2px solid black;
+    font-size: 1.4rem;
+    border-radius: 5px;
+}
+
+#model button:active{
+    background-color: rgba(218, 206, 206, 0.111);
+    color: black;
+    border-radius: 10px;
+}
+
+#m-text #close{
+    color: red;
+    font-weight: bold;
+    font-size: 2.8rem;
+    /* outline: none; */
+    border: none;
+}
+#container{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: none;
+    z-index: 1;
+}
+#m-text{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #f5f5f5;
+    color: black;
+    width: 250px;
+    height: 100px;  
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    animation: anime 0.5s ease-in-out;
+    /* display: none; */
+}
+
+@keyframes anime{
+    from{
+        top: -350px;
+        opacity: .5;
+    }
+    to{
+        top: 50%;
+        opacity: 1;
+    }
+}
